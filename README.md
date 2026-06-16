@@ -1,57 +1,89 @@
-## 1. MSBTE Result Automation & Analytics (Capstone) 📊
+
+A collection of projects showcasing skills in Android Development, Machine Learning, Web Automation, and Data Analytics.
+
+## 1. MSBTE Result Automation & Analytics 📊 (Capstone)
+
 Full-Stack Web Application for Institute Result Management
 
-A powerful automation and analytics platform that fetches student results from the official MSBTE portal, stores them, and provides deep ML-powered insights, predictions, and visualizations.
+A powerful automation platform that simplifies MSBTE semester result handling for institutes.
+
+### Core Workflow
+- User uploads a CSV file containing student enrollment numbers.
+- The system automatically fetches results from the official MSBTE website using browser automation.
+- Extracts detailed marks, grades, and subject data.
+- Generates enriched CSV files for analysis and predictions.
 
 ### Key Features
-- Automated Batch Fetching — Upload Excel/CSV → Auto-save students → Headless browser automation to fetch results
-- Individual & Bulk Result Lookup with PDF download
-- ML-Powered Predictions
-  - Next semester percentage forecasting
-  - KT (ATKT) Risk Prediction using Gradient Boosting
-  - Class-wide at-risk student ranking
-  - Weak subject detection (z-score analysis)
-- Comprehensive Analytics Dashboard
-  - Pass vs KT trends, grade distribution, top performers
-  - Subject difficulty ranking, cohort progression, seasonal analysis
-  - Statistical anomaly detection (sudden drops/jumps, outliers)
-- Responsive UI with real-time progress tracking
+- Batch result fetching via CSV upload
+- Headless browser automation
+- Individual result lookup + PDF download
+- ML-powered predictions (Next semester %, KT Risk, Weak Subjects)
+- Comprehensive analytics dashboard (trends, grade distribution, subject difficulty, anomaly detection)
 
-Tech Stack: Python, Flask/FastAPI, Selenium, Pandas, scikit-learn, Matplotlib/Plotly, SQLite/PostgreSQL
+Tech Stack: Python, Selenium, Pandas, scikit-learn, Flask/FastAPI, Plotly
 
 ## 2. HAJA Notes 📝
-Android Notes Application (Built with Android Studio)
 
-Feature-rich notes app with biometric lock, multi-language support, image attachment, voice input, theming, and sharing.
+Android Notes Application built with Android Studio
 
-Tech Stack: Java, Android Studio, Jetpack, Room DB, Biometric API
+A clean, secure, and feature-rich notes app with biometric protection.
+
+### Key Features
+- Biometric Authentication (Fingerprint / Face / PIN)
+- Create, edit, search & organize notes
+- Topics / Categories system
+- Markdown support
+- Image attachment (Camera + Gallery)
+- Voice input
+- Multiple themes & multi-language support
+- Share via WhatsApp, Email, Bluetooth, etc.
+- Backup & Restore
+
+Tech Stack: Java, XML, SQLite, Android Studio, Material Design
 
 ## 3. Sofia - Women's Safety AI Chatbot 🛡️
+
 Live Demo: [Sofia_Ai](https://arshi9214.github.io/Sofia_Ai/)
 
-Multilingual empathetic chatbot with emergency SOS, location services, and safety resources.
+Multilingual empathetic chatbot designed for women's safety with emergency features.
 
-Tech Stack: HTML, CSS, JavaScript, PWA
+### Key Features
+- SOS emergency alerts
+- Location sharing & nearest police station finder
+- Safe route suggestions
+- Voice input support
+- Progressive Web App (PWA)
+
+Tech Stack: HTML, CSS, JavaScript
 
 ## 4. AdSales Forecast 📈
-Streamlit ML Dashboard
 
-Interactive web app comparing 5 regression models for advertising sales prediction.
+Streamlit ML Dashboard for Advertising Sales Prediction
 
-- Best Model: Gradient Boosting (R² = **0.9370**)
+Interactive web app that trains and compares 5 ML regression models on the same dataset.
 
-Tech Stack: Python, Streamlit, scikit-learn, Plotly
+Best Model: Gradient Boosting (R² = 0.9370)
+
+### Key Features
+- Model comparison table
+- Rich visualizations (histograms, scatter plots, heatmap, pair plots)
+- Real-time prediction with sliders
+
+Tech Stack: Python, Streamlit, scikit-learn, Plotly, Pandas
 
 ## 5. Logistic Regression Project
-Binary Classification Implementation
 
-Complete Jupyter Notebook demonstrating end-to-end Logistic Regression workflow.
+End-to-End Classification Implementation
 
-Tech Stack: Python, scikit-learn, Jupyter
+Complete Jupyter Notebook demonstrating Logistic Regression workflow with evaluation and visualization.
 
-## 🛠️ Core Skills
-- Full-Stack Development** (Web + Mobile)
-- Web Automation (Selenium)
-- Machine Learning (Regression, Classification, Risk Prediction)
-- Data Analytics & Visualization
-- Real-world impactful applications
+Tech Stack: Python, scikit-learn, Jupyter Notebook
+
+## 🛠️ Skills & Technologies
+
+- Mobile Development: Java, XML, SQLite, Android Biometrics
+- Machine Learning: scikit-learn, Gradient Boosting, Regression & Classification
+- Automation: Selenium Web Scraping & Browser Automation
+- Data Science: Pandas, NumPy, Data Visualization (Plotly/Matplotlib)
+- Web Development: Streamlit, Flask/FastAPI, HTML/CSS/JS, PWA
+- Databases: SQLite, CSV processing
