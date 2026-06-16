@@ -35,7 +35,7 @@ Core Workflow:
 - Seasonal performance comparison
 
 ## 🛠️ Tech Stack
-- Backend: Python (Flask/FastAPI)
+- Backend: Python (FastAPI and other libraries )
 - Automation: Selenium (headless browser)
 - Data Handling: Pandas, NumPy
 - Machine Learning: scikit-learn (Gradient Boosting, etc.)
